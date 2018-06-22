@@ -39,6 +39,7 @@ $(document).ready(function() {
 
         userNum = 0;
 
+        $("#targetNum").html(" " + targetNumber);
 
         $("#total").html(userNum); 
 
@@ -64,7 +65,7 @@ $(document).ready(function() {
 
     $("#crystal1").click(function(){
         userNum = userNum + crystal1;
-        alert("Total User: " + userNum + "\n Crystal1: " + crystal1);
+        // alert("Total User: " + userNum + "\n Crystal1: " + crystal1);
         $("#total").html(userNum);  
 
         if (userNum == targetNumber) {
@@ -82,7 +83,7 @@ $(document).ready(function() {
         
     $("#crystal2").click(function(){
         userNum = userNum + crystal2;
-        alert("Total User: " + userNum + "\n Crystal2: " + crystal2);
+        // alert("Total User: " + userNum + "\n Crystal2: " + crystal2);
         $("#total").html(userNum);  
 
         if (userNum == targetNumber) {
@@ -97,7 +98,7 @@ $(document).ready(function() {
 
     $("#crystal3").click(function(){
         userNum = userNum + crystal3;
-        alert("Total User: " + userNum + "\n Crystal3: " + crystal3);
+        // alert("Total User: " + userNum + "\n Crystal3: " + crystal3);
         $("#total").html(userNum);  
 
         if (userNum == targetNumber) {
@@ -112,7 +113,7 @@ $(document).ready(function() {
     
     $("#crystal4").click(function(){
         userNum = userNum + crystal4;
-        alert("Total User: " + userNum + "\n Crystal4: " + crystal4);
+        // alert("Total User: " + userNum + "\n Crystal4: " + crystal4);
         $("#total").html(userNum);  
     
         if (userNum == targetNumber) {
